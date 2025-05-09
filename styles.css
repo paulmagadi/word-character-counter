@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: auto;
+}
+
+body {
+    background-color: rgb(242, 242, 242);
+    font-family: "Merienda", cursive;
+}
+
+.container {
+    width: 100%;
+    padding: 1em;
+}
+
+.counter-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 1em auto;
+}
+
+.container h1 {
+    font-size: 25px;
+}
+
+.container h3 {
+    font-size: 20px;
+}
+
+.heading {
+    border: 2px solid #010000;
+    padding: 1em;
+    font-weight: 700;
+    text-align: center;
+    background-color: white;
+}
+
+#textarea {
+    min-height: 250px;
+    width: 100%;
+    resize: none;
+    font-size: 1em;
+    padding: 1em;
+    margin-top: 1em;
+    color: #191b17;
+    outline: none;
+    border: 2px solid #010000;
+  font-family: "Merienda", cursive;
+    background-color: white;
+}
+
+#textarea:focus {
+    border: 2px solid #010000;
+    outline: none;
+
+}
+
+.result {
+    color: #121212;
+    width: 100%;
+    font-weight: 700;
+    margin-top: 1em;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#wordCount,
+#characterCount {
+    font-size: 1.2rem;
+    color: rgb(0, 0, 196);
+}
+
+.word {
+    border: 2px solid #010000;
+    width: 49%;
+    font-size: 1.1rem;
+    padding: .7em 1em;
+}
+
+.characters {
+    border: 2px solid #010000;
+    width: 49%;
+    font-size: 1.1rem;
+    padding: .7em 1em;
+}
